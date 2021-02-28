@@ -1,0 +1,33 @@
+.ColumnOne{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+.quickLinks{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.playButton{
+    transition: ease-in-out 40ms;
+}
+.playButton:hover{
+    transform: translateY(-3px);
+}
+.playButton:active{
+    transform: translateY(2px);
+}
+
+@media only screen and (max-width: 800px) {
+    .ColumnOne{
+        margin-left: 1rem;
+        font-size: 11px;
+
+    }
+}

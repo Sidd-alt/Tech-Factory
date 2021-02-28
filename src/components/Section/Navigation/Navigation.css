@@ -1,0 +1,33 @@
+.Navigation{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 4px 8px grey;
+    background-color:white;
+    z-index: 10;
+}
+
+.subNav{
+    width: 12rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.subNav:hover{
+    background-color: rgb(227, 230, 37);
+}
+
+@media only screen and (max-width: 800px) {
+    .Navigation{
+        margin-top: -2rem;
+    }
+    .subNav{
+        font-size: 13px;
+        margin-top: -2rem;
+        padding-top: 1rem;
+    }
+  }

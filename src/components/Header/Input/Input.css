@@ -1,0 +1,31 @@
+
+
+.Input{
+    width: 20rem;
+    height: 3rem;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-left: 70px;
+    border: 2px solid grey;
+    outline: none;
+    border-radius: 25px;
+    box-shadow: inset 1px 2px 3px grey;
+}
+
+input::placeholder{
+    background: url('../../Assets/Search/Search.svg');
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .Input {
+      font-size: 14px;
+      width: 9rem;
+      padding-left: 5px;
+    }
+    input::placeholder{
+      background: none;
+      padding-left: 0px;
+    }
+  }

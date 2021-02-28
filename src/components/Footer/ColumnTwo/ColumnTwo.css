@@ -1,0 +1,16 @@
+.ColumnTwo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 3rem;
+    cursor: pointer;
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    .ColumnTwo{
+        margin-left: 1rem;
+        font-size: 11px;
+    }
+}

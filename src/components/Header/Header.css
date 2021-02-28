@@ -1,0 +1,54 @@
+.Header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 9rem;
+    width: auto;
+}
+
+.subHeader1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subHeader2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 14rem;
+    margin-right: -5rem;
+}
+
+.myCourses{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: -70px;
+}
+
+.Logo{
+    margin-left: -6rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .Header{
+        display: flex;
+        flex-direction: column;
+        height: 15rem;
+    }
+    .Logo{
+        margin-left: 0;
+    }
+    .subHeader1{
+        margin-bottom: -2.7rem;
+    }
+    .subHeader2{
+        width: 15rem;
+        margin-right: 0rem;
+        margin-bottom: 3rem;
+    }
+    .myCourses{
+        margin-left: -10px;
+    }
+  }

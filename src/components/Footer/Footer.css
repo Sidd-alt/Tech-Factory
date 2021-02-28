@@ -1,0 +1,9 @@
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 167, 157, 1);
+    color: wheat;
+    font-weight: 500;
+    margin-top: 6rem;
+}
+

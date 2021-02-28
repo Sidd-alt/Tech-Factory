@@ -1,0 +1,29 @@
+.AuthorRating{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-top: -1.2rem;
+}
+
+.authorName{
+    font-size: 14px;
+    color: grey;
+    font-weight: 500;
+}
+
+.rating{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -43px;
+    
+}
+
+.stars{
+    margin-right: 11px;
+}
+
+.numbers{
+    font-size: 13px;
+    font-weight: 700;
+}

@@ -1,0 +1,11 @@
+.ColumnThree{
+    display: flex;
+    flex-direction: column;
+    margin-top: 9rem;
+    margin-right: 6rem;
+}
+
+.rights{
+    font-size: 11px;
+    margin-top: -34px;
+}

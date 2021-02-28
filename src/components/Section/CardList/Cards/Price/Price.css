@@ -1,0 +1,17 @@
+.Price{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.discount{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.real{
+    font-size: 13px;
+    color: grey;
+    text-decoration: line-through;
+    margin-left: 10px;
+}

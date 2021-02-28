@@ -1,0 +1,19 @@
+.Initial{
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    background-color: blueviolet;
+    padding: 0px 15px 3px 15px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .Initial{
+        font-size: 1rem;
+        padding: 4px 9px 4px 9px;
+    }
+    
+  }
